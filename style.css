@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 60px;
+   
+}
+.navbar{
+    width: 98%;
+    height: 56px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbar .img-link{
+    margin-right: 14px;
+}
+.navbar a{
+    color: #5f6368;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navbar a:hover{
+   text-decoration: underline;
+}
+.navbar div{
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+.navbar div img{
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.navbar .ninedot-icon{
+    font-size: larger;
+    margin-top: 4px;
+    cursor: pointer;
+    padding: 8px 9px 5px 9px;
+    margin-left: 0px;
+    color: #5f6368;
+}
+.navbar .ninedot-icon:hover{
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 50%;
+}
+.profile{
+    cursor: pointer;
+    padding: 4px 4px;
+}
+.profile:hover{
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 50%;
+}
+
+
+/*Hero content start*/
+.container_block{
+    width: 100%;
+    height: 200px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.google_gif{
+    display: flex;
+}
+.google_gif img{
+    cursor: pointer;
+    width: 272px;
+    height: 92px;
+}
+
+
+.search-box-block{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    justify-content: center; 
+}
+
+.search-box{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.search:hover{
+    border: 3px solid #dfe1e5;
+}
+.search .search-icon{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #87898d;
+   
+}
+.search input{
+    width: 450px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.search .input{
+    font-size: 15px;
+    color: #5c5e5f;
+} 
+.search .mic-icon{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .image-icon{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoboxes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    padding: 10px 20px;
+    font-family: sans-serif;
+    background-color: rgba(194, 190, 190, 0.137);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box:hover{
+    border: 1px solid lightgrey;
+}
+.box a{
+    color: #272829;
+    font-size: 14px;
+}
+.twoboxes .formargin{
+    margin-left: 30px;
+}
+
+.language{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.language p{
+    color: #4d5156; 
+    font-size: 15px;
+}
+.language a{
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    color: #202124;
+}
+.first-footer{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+}
+.first-footer p{
+    margin-left: 35px;
+    font-family: sans-serif;
+}
+.second-footer{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.second-footer div a{
+    color: #202124;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.second-footer div a:hover{
+    text-decoration: underline;
+}
+.second-footer div{
+    margin-top: 15px;
+}
+.second a{
+    margin-right: 10px;
+}
+.second .rightmargin{
+    margin-right: 30px;
+}
